@@ -1,5 +1,6 @@
 // C++ code
-// https://www.tinkercad.com/things/9MfBnuEXFKN-tonepitchfollowpotent
+// Sketch for regular one https://www.tinkercad.com/things/9MfBnuEXFKN-tonepitchfollowpotent 
+// Sketch to also control volume https://www.tinkercad.com/things/fIID6lEmdFk-tonevolume
 void setup()
 {
    Serial.begin(9600); 
@@ -20,4 +21,5 @@ void loop()
  // play the pitch:
  tone(9, thisPitch, 10);
  delay(1); // delay in between reads for stability
+
 }
