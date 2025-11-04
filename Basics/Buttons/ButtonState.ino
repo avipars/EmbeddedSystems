@@ -1,6 +1,5 @@
 // C++ code
-//
-int buttonState = 0;
+// https://www.tinkercad.com/things/9Rq62wdggb0-pushbutton-saving-state
 int currButtonState, prevButtonState = LOW; // variable for reading the pushbutton status 
 int ledState = LOW; 
 const int buttonPin = 2;
@@ -18,9 +17,8 @@ void loop()
   if (currButtonState == HIGH && prevButtonState == LOW){
     ledState = !ledState;
     digitalWrite(ledPin, ledState);
-
   }
-	prevButtonState	= currButtonState;
+  prevButtonState	= currButtonState;
   
   delay(2); // Delay a little bit to improve simulation performance
 }
