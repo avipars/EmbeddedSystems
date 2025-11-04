@@ -1,5 +1,6 @@
 // C++ code
-// https://www.tinkercad.com/things/9Rq62wdggb0-pushbutton-saving-state
+// Simulator https://www.tinkercad.com/things/9Rq62wdggb0-pushbutton-saving-state
+// button, resistor, led 
 int currButtonState, prevButtonState = LOW; // variable for reading the pushbutton status 
 int ledState = LOW; 
 const int buttonPin = 2;
